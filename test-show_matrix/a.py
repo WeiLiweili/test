@@ -8,7 +8,7 @@ for i in range(0,4):
     for j in range(0,4):
         a.set(i,j,0.5*i+j, 0.1*(i-j))
 
-x="/home/eric/src/Libra/for_develop/test/test-show_matrix"
+x="/home/eric/src/Libra/for_develop/test/test-show_matrix/o"
 
 a.real().show_matrix(x)
 
